@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./mock.json";
-
+import "./App.css";
 const App = () => {
 
   const [contact, setContacts] = useState(data);
